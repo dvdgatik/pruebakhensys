@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default myNav">
+    <div  class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Inicio</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">NOSOTROS <span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INDUSTRIA <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTOS <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MEDIA <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+            </ul>
+          </li>
+          <li class=""><a href="#">CONTACTENOS <span class="sr-only">(current)</span></a></li>
+
+        </ul>
+
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="pipe"><a class="a-in" href="#">Ingresar</a> <span>|</span> <a class="a-in" href="#">Buscar Oficina</a></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container-fluid" id="app">
+    <div id="example" class="jumbotron myJumbo">
+      <title-main></title-main>
+      <sub-title></sub-title>
+    </div>
+    <section id="sec_productos" class="sec-productos text-center"><title-productos></title-productos></section>
+    <div class="row div-productos">
+      <div class="post1 col-xs-12 col-sm-12 col-md-4">
+        <div class="postshadow">
+          <h3 class="title1-h text-center"><title-post1></title-post1></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quas quia et debitis repudiandae provident eos aperiam similique? Ratione ducimus quisquam placeat non reprehenderit mollitia facilis aperiam perspiciatis enim autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, reprehenderit? Inventore sapiente voluptates ex quibusdam ut dolore dignissimos dolor voluptatum aliquid aperiam harum commodi ullam, sed praesentium incidunt voluptate fugiat?</p>
+        </div>
+
+      </div>
+      <div class="post1 col-xs-12 col-sm-12 col-md-4">
+        <div class="postshadow">
+          <h3 class="title2-h text-center"><title-post2></title-post2></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quas quia et debitis repudiandae provident eos aperiam similique? Ratione ducimus quisquam placeat non reprehenderit mollitia facilis aperiam perspiciatis enim autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, reprehenderit? Inventore sapiente voluptates ex quibusdam ut dolore dignissimos dolor voluptatum aliquid aperiam harum commodi ullam, sed praesentium incidunt voluptate fugiat?
+          </p>
+        </div>
+
+      </div>
+      <div class="post1 col-xs-12 col-sm-12 col-md-4">
+        <div class="postshadow">
+          <h3 class="title3-h text-center"><title-post3></title-post3></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quas quia et debitis repudiandae provident eos aperiam similique? Ratione ducimus quisquam placeat non reprehenderit mollitia facilis aperiam perspiciatis enim autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, reprehenderit? Inventore sapiente voluptates ex quibusdam ut dolore dignissimos dolor voluptatum aliquid aperiam harum commodi ullam, sed praesentium incidunt voluptate fugiat?
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <section class="experiencia row">
+      <h3 class="exp-1 text-center"><exp-con1></exp-con1></h3>
+      <h5 class="exp-2 text-center"><exp-con2></exp-con2></h5>
+    </section>
+    <footer class="row">
+      <section class="foot1 col-md-4">
+        <h4 class="text-center"><strong>Nosotros</strong></h4>
+        <h5 class="text-center"><a href="#">Inicio</a></h5>
+        <h5 class="text-center"><a href="#">Quiénes Somos</a></h5>
+
+      </section>
+      <section class="foot1 col-md-4">
+        <h4 class="text-center"><strong>Nuestra Empresa</strong></h4>
+        <h5 class="text-center"><a href="#">Nosotros</a></h5>
+        <h5 class="text-center"><a href="#">Partners</a></h5>
+
+      </section>
+      <section class="foot1 col-md-4">
+        <h4 class="text-center"><strong>Support</strong></h4>
+        <h5 class="text-center"><a href="#">Apoyo Técnico</a></h5>
+        <h5 class="text-center"><a href="#">Aplicación de Turnos</a></h5>
+      </section>
+
+    </footer>
+  </div>
+
+
+
+
+
+  <script>
+
+
+// registro
+Vue.component('title-main', {
+  template: '<h3 class="text-center">Redefiniendo la experiencia del cliente</h3>'
+})
+
+
+Vue.component('sub-title', {
+  template: '<h3 class="text-center">en la sala de esperas</h3>'
+})
+
+Vue.component('title-productos', {
+  template: '<h3>Productos</h3>'
+})
+// crear la instancia principal
+new Vue({
+  el: '#example'
+})
+
+
+Vue.component('title-productos', {
+  template: '<h3>Productos</h3>'
+})
+// crear la instancia principal
+new Vue({
+  el: '#sec_productos'
+})
+
+
+
+
+
+
+
+Vue.component('title-post1', {
+  template: '<h3>Lorem</h3>'
+})
+// crear la instancia principal
+new Vue({
+  el: '.title1-h'
+})
+
+
+
+Vue.component('title-post2', {
+  template: '<h3>Lorem</h3>'
+})
+// crear la instancia principal
+new Vue({
+  el: '.title2-h'
+})
+
+
+
+Vue.component('title-post3', {
+  template: '<h3>Lorem</h3>'
+})
+// crear la instancia principal
+new Vue({
+  el: '.title3-h'
+})
+
+
+
+Vue.component('exp-con1', {
+  template: '"<p>Neque porro quisquam est dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>'
+})
+// crear la instancia principal
+new Vue({
+  el: '.exp-1'
+})
+
+
+
+Vue.component('exp-con2', {
+  template: '<p>"no hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es dolor"</p>'
+})
+// crear la instancia principal
+new Vue({
+  el: '.exp-2'
+})
+
+
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>

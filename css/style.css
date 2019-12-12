@@ -1,0 +1,71 @@
+body {
+      background:#f2f2f2;
+    }
+    .navbar {
+    margin-bottom: 0px;
+}
+
+.div-productos {
+  margin:20px;
+}
+.postshadow {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 2px 3px 20px #c6c6c6;
+  margin: 10px 0px;
+
+}
+
+footer {
+  background: #3f3f43;
+  padding: 20px
+}
+
+footer a, footer h4 {
+  color:#fff;
+}
+
+.a-in {display: inline-block !important;}
+
+.experiencia {
+  background: #d9eead;  padding:20px;
+
+}
+ .jumbotron.myJumbo {
+
+background: rgba(210,151,116,1) !important;
+background: -moz-linear-gradient(top, rgba(210,151,116,1) 0%, rgba(213,192,132,1) 100%) !important;
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(210,151,116,1)), color-stop(100%, rgba(213,192,132,1))) !important;
+background: -webkit-linear-gradient(top, rgba(210,151,116,1) 0%, rgba(213,192,132,1) 100%) !important;
+background: -o-linear-gradient(top, rgba(210,151,116,1) 0%, rgba(213,192,132,1) 100%) !important;
+background: -ms-linear-gradient(top, rgba(210,151,116,1) 0%, rgba(213,192,132,1) 100%) !important;
+background: linear-gradient(to bottom, rgba(210,151,116,1) 0%, rgba(213,192,132,1) 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d29774', endColorstr='#d5c084', GradientType=0 ) !important;
+color:#ffffff !important;
+
+ }
+
+@media only screen and (max-width: 600px) {
+
+  #sec_productos h3 {
+    font-size: 30pt;
+  }
+
+ .div-productos {
+  margin:0px;
+}
+
+
+
+.navbar-brand {
+  padding-left:30px;
+}
+.navbar-nav {
+  padding-left: 30px;
+}
+#app {padding:0;}
+
+.experiencia, footer{margin-left: 0; margin-right: 0;}
+
+nav {border:solid 1px orange;}
+}  
